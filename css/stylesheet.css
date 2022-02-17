@@ -1,0 +1,92 @@
+<!Font>
+    @font-face {
+        font-family: Poppins;
+        src: url(../css/fonts/poppins.ttf);
+    }
+
+    @font-face {
+        font-family: Rubik;
+        src: url(../css/fonts/rubik.ttf);
+    }
+
+<!Body>
+html {
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+    background-color: #E7F5FE;
+}
+
+<!Navigation Bar>
+div#nav-bar {
+    overflow: hidden;
+	background-color: #C3E7FD;
+}
+
+div#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C3E7FD;
+    position: fixed;
+    top: 0;
+    width: 100%;
+        z-index: 999;
+}
+
+div#nav-bar li {
+    height: 80px;
+}
+
+div#nav-bar li.header {
+    background-color: #C3E7FD;
+    color: #384F5B;
+    float: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 4px;
+}
+
+div#nav-bar li.nav-bar-li {
+    background-color: #C3E7FD;
+    color: #384F5B;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div#nav-bar li.active {
+    background-color: #ABCDE1;
+    color: #E7F5FE;
+    font-family: 'Poppins', sans-serif;
+}
+
+div#nav-bar li a{
+    background-color: none;
+    float: left;
+    display: block;
+    color: #384F5B;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+<!Content>
+div#content div.content-header {
+    background-color: #E7F5FE;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
